@@ -2,8 +2,6 @@
 IoT-Based Fire Detection and Alert System
 
 
-IoT-Based Fire Detection and Alert System
-
 CS3402 – Internet of Things Lab | Mini Project | R V University
 
 Overview
