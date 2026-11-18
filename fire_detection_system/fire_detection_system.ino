@@ -36,8 +36,8 @@
 #define OLED_ADDR   0x3C        // change to 0x3D if the OLED is not detected
 
 // ---------- Thresholds (calibrate in your lab) ----------
-const int   SMOKE_THRESHOLD = 400;    // MQ-2 analog value (0-1023)
-const float TEMP_THRESHOLD  = 45.0;   // degrees Celsius
+const int   SMOKE_THRESHOLD = 200;    // MQ-2 analog value (0-1023)
+const float TEMP_THRESHOLD  = 35.0;   // degrees Celsius
 
 // ---------- Status codes ----------
 const byte SAFE = 0, WARNING = 1, FIRE = 2;
