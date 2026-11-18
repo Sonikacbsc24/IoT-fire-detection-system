@@ -4,7 +4,6 @@ CS3402 – Internet of Things Lab | Mini Project | R V University
 ## Overview
 An Arduino Uno monitors flame, smoke/gas, temperature and humidity. Threshold logic classifies the room as **SAFE / WARNING / FIRE**, drives a LED + buzzer alarm pattern and shows live readings on an OLED. The Uno also sends each reading over USB serial (CSV) to a laptop, where a Python gateway sends **Telegram notifications** to the user's phone.
 
-![architecture](system_architecture.png)
 
 ## Hardware
 Arduino Uno, flame sensor (digital), MQ-2 smoke sensor, DHT11, active buzzer, red + green LED (220 Ω each), 0.96" SSD1306 I2C OLED, push button, breadboard, jumper wires, USB cable. Laptop and a phone with Telegram (already owned).
