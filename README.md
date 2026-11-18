@@ -49,4 +49,12 @@ The push button silences the buzzer; it re-arms when the status returns to SAFE.
 - `circuit_diagram.png`, `system_architecture.png`
 
 ## Team
-Group No.: ___  |  Members: ___
+Group No.: 4  
+
+Members:
+
+Prathibha. B - 1RUA24SCS0081
+
+Shreeraksha. S. Jadhav - 1RUA24SCS0106
+
+Sonika. C - 1RUA24SCS0111
