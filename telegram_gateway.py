@@ -11,8 +11,6 @@ Anyone who opens the bot and sends /start is subscribed automatically
 (/stop unsubscribes). Subscribers are remembered in subscribers.json.
 All readings are also saved with a timestamp in fire_log.csv.
 
-Install :  pip install pyserial requests
-Run     :  python telegram_gateway.py        (close the Arduino Serial Monitor first)
 """
 import csv
 import json
