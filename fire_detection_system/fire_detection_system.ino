@@ -5,7 +5,7 @@
  * Sensors: Flame sensor (D2), DHT11 (D3), MQ-2 smoke/gas (A0), push button (D4)
  * Outputs: Active buzzer (D8), Red LED (D9), Green LED (D10), SSD1306 OLED (I2C: A4/A5)
  *
- * Libraries (Sketch > Include Library > Manage Libraries):
+ * Libraries 
  *   - DHT sensor library (Adafruit)  + Adafruit Unified Sensor
  *   - Adafruit GFX Library
  *   - Adafruit SSD1306
@@ -33,7 +33,7 @@
 #define DHTTYPE     DHT11
 #define OLED_WIDTH  128
 #define OLED_HEIGHT 64
-#define OLED_ADDR   0x3C        // change to 0x3D if the OLED is not detected
+#define OLED_ADDR   0x3C        
 
 // ---------- Thresholds (calibrate in your lab) ----------
 const int   SMOKE_THRESHOLD = 200;    // MQ-2 analog value (0-1023)
@@ -65,7 +65,7 @@ void setup() {
   dht.begin();
   if (!display.begin(SSD1306_SWITCHCAPVCC, OLED_ADDR)) {
     Serial.println(F("OLED not found"));
-    while (true);                       // stop here if OLED is missing
+    while (true);                   
   }
 
   // MQ-2 heater needs ~20 s to stabilise
